@@ -1,7 +1,13 @@
 //consersion opreator data tytpe
 
-let score = "33abc"
+//let score = "33abc"
 
-console.log(valueInNumber);
+//console.log(typeof score); 
 
-//if we convert 33 into number easily converted 
+//let valueInNumber = Number(score)
+//if we convert 33 into number easily converted
+
+let isLoggedIn = 1 
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
