@@ -13,7 +13,7 @@ console.log(typeof(required))
 
 // *********************LOOPS**********************************
 //if else
-const flag = true
+/* const flag = true
 
 if(!flag)
 {
@@ -22,7 +22,7 @@ console.log("condition statisfied")
 else{
     console.log("condition not statisfied")   
 }
-
+*/
 //while loop
 /* while(true)
 {
