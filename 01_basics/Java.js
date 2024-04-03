@@ -29,9 +29,27 @@ else{
   //  console.log("i am inside loop")
 }*/
 
-let i = 0
+/*let i = 0
 while(i<10)
 {
     i++
     console.log(i)
+}*/
+
+/*let i = 0
+while(i>10)
+{
+    i++
+    console.log(i)
+}
+do  //do while is used when before condition check do condition should be execute
+{
+  i++
+}while(i>10);
+console.log(i)*/
+
+//For loop
+for(let k=0;k<=10;k++)
+{
+  console.log(k)
 }
