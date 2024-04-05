@@ -49,7 +49,14 @@ do  //do while is used when before condition check do condition should be execut
 console.log(i)*/
 
 //For loop
-for(let k=0;k<=10;k++)
+/*for(let k=0;k<=10;k++)
 {
+  console.log(k)
+}*/
+// now print multiple of 2 and 5 so built logic here so from 1 to 10 we print common multiple of 2 and 5
+for(let k = 1;k<=100;k++)
+{
+  //if (k%2== 0 && k%5 == 0) && this used as and means output should same comparsing both || OR Opreator used output come from both
+  if (k%2== 0 || k%5 == 0)
   console.log(k)
 }
