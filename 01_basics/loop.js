@@ -22,4 +22,7 @@ for(let k=1;k<=100;k++)
       }
     }
 
-    
+    //print table of 2
+    let tableName =2
+    for(let s=1;s<=10;s++)
+    console.log(s* tableName)
