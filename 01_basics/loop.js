@@ -12,7 +12,7 @@ for(let k=1;k<=100;k++)
     }
     console.log("************************************")
 
-    let s = "Silky chugh arora"
+    let s = "Silky chugh arora" //only vowels should print
     let c, i
     for (i=0; i<=s.length-1; i++){
       c = s[i]  // or s.charAt(i)
@@ -26,3 +26,8 @@ for(let k=1;k<=100;k++)
     let tableName =2
     for(let s=1;s<=10;s++)
     console.log(s* tableName)
+console.log("****************************************************")
+let tableNmame=4  //print table of 4
+for(let v=1;v<=20;v++)
+console.log(v* tableName)
+//if i added two digit it should be print ,according to symbol[+,-,*,%] two digit work
