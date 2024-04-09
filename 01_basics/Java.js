@@ -56,7 +56,7 @@ console.log(i)*/
 // now print multiple of 2 and 5 so built logic here so from 1 to 10 we print common multiple of 2 and 5
 for(let k = 1;k<=100;k++)
 {
-  //if (k%2== 0 && k%5 == 0) && this used as and means output should same comparsing both || OR Opreator used output come from both
+  //if (k%2== 0 && k%5 == 0) && this used means output come in which is common in both , || OR Opreator used output come from both
   if (k%2== 0 || k%5 == 0)
   console.log(k)
 }
