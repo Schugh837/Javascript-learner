@@ -56,7 +56,7 @@ console.log(multiple)*/
  /*The reduce() method reduces an array of values down to just one value. 
  To get the output value, it runs a reducer function on each element of the array.*/
 
- 
+ marks.reduce(())
 
 
 
