@@ -16,7 +16,7 @@ marks.pop()// deleted last number from array
 marks.unshift(6) //this is use to add numbr to begning to the array
 console.log(marks)
 */
-var marks = [20,56,67,22,78,100]
+/*var marks = [20,56,67,22,78,100]
 submarks=marks.slice(2,5)//Want to create sub array from main array
 console.log(submarks)
 console.log(marks)
@@ -56,8 +56,23 @@ console.log(multiple)*/
  /*The reduce() method reduces an array of values down to just one value. 
  To get the output value, it runs a reducer function on each element of the array.*/
 
- marks.reduce(())
+ //let total=marks.reduce((Sum,totalMarks)=>sum+totalMarks,0)
+ //console.log(total)
+//******************************Just print onlu even number */
+ var scores=[12,13,14,16,20,22,18]
+ var evenScores =[]
+ console.log(scores.length);
+ for(let i=0;i<scores.length;i++)
 
+
+    {
+        console.log('test');
+    if(scores[i] %2==0)
+        {
+            evenScores.push(scores[i])
+        }
+    }
+    console.log(evenScores)
 
 
 
