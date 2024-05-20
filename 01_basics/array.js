@@ -66,14 +66,16 @@ console.log(multiple)*/
 
 
     {
-        console.log('test');
+        
     if(scores[i] %2==0)
         {
             evenScores.push(scores[i])
         }
     }
     console.log(evenScores)
-
+    let newFilterEvenScores =scores.filter(score=>score%2==0)
+    console.log(newFilterEvenScores)
+ 
 
 
 
