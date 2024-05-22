@@ -59,7 +59,7 @@ console.log(multiple)*/
  //let total=marks.reduce((Sum,totalMarks)=>sum+totalMarks,0)
  //console.log(total)
 //******************************Just print onlu even number */
- var scores=[12,13,14,16,20,22,18]
+ /*var scores=[12,13,14,16,20,22,18]
  var evenScores =[]
  console.log(scores.length);
  for(let i=0;i<scores.length;i++)
@@ -74,8 +74,28 @@ console.log(multiple)*/
     }
     console.log(evenScores)
     let newFilterEvenScores =scores.filter(score=>score%2==0)
-    console.log(newFilterEvenScores)
+    console.log(newFilterEvenScores)*/
+ /********************* MAP ******************************* */
+ //Basically map is from one valuye to new value
+ /*let mapArray=newFilterEvenScores.map(score=>score*3)
+ console.log(mapArray)
+  let totalValue=mapArray.reduce((sum,val)=>sum+val,0)
+  console.log(totalValue)*/
+
+  //create above code in minmum line
+  var scores1=[2,6,8,12,15,19,22,24,26,29]
+   let sumValue=scores1.filter(scores1=>scores1%2==0).map(scores1=>scores1*3).reduce((sum,val)=>sum+val,0)
+   console.log(sumValue)
+   /*SORTING AN ARRAY USED STRING and sort array*/
+   let fruits=["mango","pear","apple","cherry","berry"]
+   fruits.sort()
+   console.log(fruits)
+
+   /*sort an array if we have number*/
+
  
+
+
 
 
 
