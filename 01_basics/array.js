@@ -88,12 +88,16 @@ console.log(multiple)*/
    console.log(sumValue)
    /*SORTING AN ARRAY USED STRING and sort array*/
    let fruits=["mango","pear","apple","cherry","berry"]
-   fruits.sort()
-   console.log(fruits)
+   console.log(fruits.sort())
+   // want to reverse the sort order use:- 
+   console.log(fruits.reverse())
+   
+   /*sort an array if we have number with custom logic*/
 
-   /*sort an array if we have number*/
+   var scores1=[2,6,8,12,65,89,22,24,29] //we are using bubble sort with recurcive manner
 
- 
+   console.log(scores1.sort((a,b)=> a-b)) // reverse order  console.log(scores1.sort((a,b)=> b-a))
+
 
 
 

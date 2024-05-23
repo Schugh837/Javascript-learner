@@ -60,3 +60,10 @@ for(let k = 1;k<=100;k++)
   if (k%2== 0 || k%5 == 0)
   console.log(k)
 }
+//variable
+const accountId = 12345
+let accountEmail = "Silky@yopmail.com"
+var accountPassword = "12345"
+
+
+console.table([accountId,accountEmail,accountPassword])
