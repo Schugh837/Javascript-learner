@@ -17,3 +17,4 @@ let sumOfNumbers = (c,d)=> c*d //=> this sign represnt anonymous function
    console.log(sumOfNumbers(4,6))
 
 //Scope let,var,const keyword
+//var is global if var declared in global level
