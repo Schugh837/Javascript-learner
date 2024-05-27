@@ -15,8 +15,18 @@ let diff= parseInt(nextDate) - parseInt(date)//convert string into integer ->bac
 console.log(diff)
 
 //Concat method in js:-means joins two or more strings- returns a new string
-let newQuote =day+ "is Funday"
+let newQuote =day+ "is Funday day"
 console.log(newQuote) 
 //i want to know where day is present
 let val =newQuote.indexOf("day",5)
 console.log(val)
+
+let count = 0
+let value =newQuote.indexOf("day")
+while(value!== -1)
+{
+    count++
+    value =newQuote.indexOf("day",value+1)
+
+}
+console.log(count)
